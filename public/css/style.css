@@ -1,0 +1,30 @@
+/*Tipografias*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{font-family: 'Roboto', sans-serif}
+
+/*Paleta de colores*/
+:root{--amarillo:#EAC926;--azul: #03264C;--celeste:#1259c3;--grisOscuro:#666;--gris:#ebebeb;--verde:#39b54a }
+
+
+/*Tamaños Tipográficos*/
+body {font-size: 12px;background-color: var(--amarillo);}
+
+.titular{font-size: 24px}
+
+.precio{font-size: 18px}
+
+.descuento{font-size: 16px}
+
+.descripcion{font-size: 16px}
+
+.articulos{text-align: center;}
+/*Iconos*/
+.centro{text-align: center}
+div{text-align: center; color: var(--gris);background-color: var(--celeste); display: inline-block;margin: 10px 50px 10px 50%;padding: 5px;}
+
+
+/*Footer*/
+footer{
+    text-align: center;}
+footer section p.icon{color: var(--celeste); font-size:32px; margin-bottom: 10px;}
+
