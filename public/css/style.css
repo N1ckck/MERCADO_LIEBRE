@@ -3,9 +3,9 @@
 *{font-family: 'Roboto', sans-serif}
 
 /*Paleta de colores*/
-:root{--amarillo:#EAC926;--azul: #03264C;--celeste:#1259c3;--grisOscuro:#666;--gris:#ebebeb;--verde:#39b54a }
+:root{--amarillo:#EAC926;--azul: #03264C;--celeste:#1259c3;--grisOscuro:#666;--gris:#ebebeb;--verde:#39b54a;}
 
-
+*{box-sizing: border-box;}
 /*Tamaños Tipográficos*/
 body {font-size: 12px;background-color: var(--amarillo);}
 
@@ -13,7 +13,7 @@ body {font-size: 12px;background-color: var(--amarillo);}
 
 .precio{font-size: 18px}
 
-.descuento{font-size: 16px}
+.descuento{font-size: 16px; color: var(--verde);}
 
 .descripcion{font-size: 16px}
 
@@ -28,3 +28,13 @@ footer{
     text-align: center;}
 footer section p.icon{color: var(--celeste); font-size:32px; margin-bottom: 10px;}
 
+main.main-home{text-align: center;width: 90%;margin:auto; }
+
+article.articulos{margin: 10px;}
+
+
+main.main-home i p.precio  {border-top: solid 1px var(--gris) ; padding: 15px;}
+p.descuento{border-top: solid 1px var(--gris) ; padding: 15px;}
+p.descripcion{border-top: solid 1px var(--gris) ; padding: 15px;}
+
+main article i{color: var(--verde);font-size:22px; margin-bottom: 10px;}
