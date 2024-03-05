@@ -7,7 +7,10 @@
 
 *{box-sizing: border-box;}
 /*Tamaños Tipográficos*/
-body {font-size: 12px;background-color: var(--amarillo);}
+body {font-size: 12px;}
+
+.cabecera{background-color: var(--amarillo);}
+.banner{width: 100%;}
 
 .titular{font-size: 24px}
 
@@ -17,16 +20,17 @@ body {font-size: 12px;background-color: var(--amarillo);}
 
 .descripcion{font-size: 16px}
 
-.articulos{text-align: center;}
+
 /*Iconos*/
-.centro{text-align: center}
-div{text-align: center; color: var(--gris);background-color: var(--celeste); display: inline-block;margin: 10px 50px 10px 50%;padding: 5px;}
+.centro{text-align: center;}
+div.icon{text-align: center;}
 
 
 /*Footer*/
 footer{
-    text-align: center;}
-footer section p.icon{color: var(--celeste); font-size:32px; margin-bottom: 10px;}
+    text-align: center;
+    }
+footer section p.icon{color: var(--celeste);font-size:32px;margin-bottom: 10px;}
 
 main.main-home{text-align: center;width: 90%;margin:auto; }
 
