@@ -5,9 +5,9 @@
 /*Paleta de colores*/
 :root{--amarillo:#EAC926;--azul: #03264C;--celeste:#1259c3;--grisOscuro:#666;--gris:#ebebeb;--verde:#39b54a }
 
-
+header{background-color:var(--amarillo);}
 /*Tamaños Tipográficos*/
-body {font-size: 12px;background-color: var(--amarillo);}
+body {font-size: 12px;}
 
 .titular{font-size: 24px}
 
