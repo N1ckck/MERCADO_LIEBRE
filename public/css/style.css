@@ -6,6 +6,8 @@
 :root{--amarillo:#EAC926;--azul: #03264C;--celeste:#1259c3;--grisOscuro:#666;--gris:#ebebeb;--verde:#39b54a }
 
 header{background-color:var(--amarillo);}
+header.img{width: 10000px;}
+input{margin-left: 15px;}
 /*Tamaños Tipográficos*/
 body {font-size: 12px;}
 
