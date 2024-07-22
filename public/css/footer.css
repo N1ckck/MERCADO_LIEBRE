@@ -1,0 +1,5 @@
+/*Footer*/
+footer{
+    text-align: center;
+    }
+footer section p.icon{color: var(--celeste);font-size:32px;margin-bottom: 10px;}
