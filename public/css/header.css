@@ -1,32 +1,40 @@
-.cabecera{background-color: var(--amarillo);}
-.imglogo{margin-top: 8%;margin-left: 10%;width: 55%;}
+.header{display:flex;width: 100%;background-color: var(--amarillo);flex-wrap: wrap;padding: 20px;align-items: center;}
+@media(max-width:359px){
+.logo-search-icon{display:flex;flex-wrap: wrap;}
+.imglogo{width: 50%;height: auto;}
 div ul{display: none;}
 .search{
-    text-align: center;
+  width: 50%;
+  position: relative;
 }
-.centro{text-align: center;}
-div.icon{text-align: center;color: var(--gris);background-color: var(--celeste);display: inline-block;margin: 10px 50px 10px 50%;padding: 5px;}
-.banner{width: 100%;display: block;}
-
+.search input{height: 80%;border: 0;width: 100%;}
+div.search button{position: absolute;border:0;top: 0%;bottom: 20%;right: -6%;left: 85%;margin: auto;}
+.compra{}
+p.centro{display: flex;margin: auto;padding-left: -5px;align-items: center;}
+div.icon{color: var(--gris);background-color: var(--celeste);margin: 10px 50px 10px 50%;padding: 5px;}
+}
 @media(min-width:360px) and (max-width:768px){
-    .cabecera{background-color: var(--amarillo);}
-    .imglogo{
-    width: 31%;
-    margin-left: 6%;
-}
-    div ul{display: block;}
-    .search{margin-left: 5%;text-align: left;}
-    .centro{text-align: center;}
-    div.icon{display: none}
-    .banner{width: 100%;}
+    .logo-search-icon{padding: 20px;display: flex;align-items: center;}
+    .imglogo{width: 33%;}
+    .search{padding: 20px;display:flex;align-items: center;justify-content: center;}
+    .search input{width: 97%;}
+    p.centro{width: 100%;}
+    .compra{margin-left: auto;}
+    .nav{width: 100%;display:flex;justify-content: space-between;}
+    ul li{display: inline;margin: 5px;}
+    header div.icon{display: none;}
 }
 
 @media(min-width:769px){
-    .cabecera{background-color: var(--amarillo);}
-    .imglogo{}
-    div ul{display: block;}
-    .search{text-align: left;}
-    .centro{text-align: center;}
-    div.icon{display: none}
-    .banner{width: 100%;}
+  .logo-search-icon{width: 100%;padding: 20px;display: flex;align-items: center;}
+  .imglogo{width: 33%;margin-right: 10%;}
+  .search{padding: 20px;display:flex;align-items: center;justify-content: center;}
+  .search input{width: 97%;font-size: 20px}
+  .search button{font-size: 20px;}
+  p.centro{width: 100%;font-size: 20px}
+  .compra{margin-left: auto;}
+  .nav{width: 100%;display:flex;justify-content: space-between;}
+  ul li{display: inline;margin: 5px;font-size: 20px}
+  header div.icon{display: none;}
+
 }
