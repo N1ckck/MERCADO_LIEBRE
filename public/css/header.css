@@ -4,10 +4,11 @@
 .imglogo{width: 50%;height: auto;}
 div ul{display: none;}
 .search{
+  height: 50%;
   width: 50%;
   position: relative;
 }
-.search input{height: 80%;border: 0;width: 100%;}
+.search input{height: 77%;border: 0;width: 100%;}
 div.search button{position: absolute;border:0;top: 0%;bottom: 20%;right: -6%;left: 85%;margin: auto;}
 .compra{}
 p.centro{display: flex;margin: auto;padding-left: -5px;align-items: center;}
@@ -28,7 +29,7 @@ div.icon{color: var(--gris);background-color: var(--celeste);margin: 10px 50px 1
 @media(min-width:769px){
   .logo-search-icon{width: 100%;padding: 20px;display: flex;align-items: center;}
   .imglogo{width: 33%;margin-right: 10%;}
-  .search{padding: 20px;display:flex;align-items: center;justify-content: center;}
+  .search{width: 35%;padding: 20px;display:flex;align-items: center;justify-content: center;}
   .search input{width: 97%;font-size: 20px}
   .search button{font-size: 20px;}
   p.centro{width: 100%;font-size: 20px}

@@ -7,3 +7,5 @@
 *{margin: 0px;padding:0px;box-sizing: border-box;}
 /*Tamaños Tipográficos*/
 body {font-size: 12px;background-color: var(--gris);padding: 0px;border: 0px;margin: 0px;}
+div.container{width: 30%;}
+main{background-color: var(--gris)}
