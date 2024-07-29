@@ -1,0 +1,316 @@
+
+.body-main {
+    background-color: #ebebeb;
+    width: 90%;
+    margin: auto;
+}
+
+.body-main .img-banner {
+    width: 100%;
+}
+
+.body-main .general {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.body-main .general h4 {
+    font-family: var(--roboto);
+    margin-top: 7px;
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+    color: var(--grisOscuro);
+    text-align: center;
+    height: 45px;
+    margin-top: 7px;
+}
+
+.body-main .general .general-art article {
+    background-color: white;
+    border: solid 1px lightgray;
+    width: 76vw;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+.body-main .general .general-art article .img-producto {
+    width: 170px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.body-main .general .general-art article .caja-info {
+    border-top: solid 1px var(--grisClaro);
+    margin: auto;
+    font-weight: 400;
+    position: relative;
+}
+
+.body-main .general .general-art article .caja-info .envio {
+    display: block;
+    color: var(--verde);
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px;
+    width: 23px;
+    height: 20px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    top: -15px;
+
+}
+
+.body-main .general .general-art article .caja-info .precios {
+    font-size: var(--precios);
+    margin-left: 10px;
+    display: inline;
+    padding: 0px 10px 10px 10px;
+}
+
+.body-main .general .general-art article .caja-info .descuentos {
+    font-size: var(--descuentos);
+    margin-left: 10px;
+    color: var(--verde);
+    display: inline;
+    padding: 0px 10px 10px 10px;
+}
+
+.body-main .general .general-art article .caja-info .descripcion {
+    font-size: var(--descripciones);
+    margin-left: 10px;
+    /* display: none; */
+    padding: 15px;
+    color: var(--grisOscuro);
+}
+
+
+/*TABLET*/
+@media (min-width: 361px) {
+.body-main {
+    background-color: #ebebeb;
+    width: 100%;
+    margin: auto;
+}
+
+.body-main .img-banner {
+    width: 100%;
+}
+
+.body-main .general {
+    margin-bottom: 10px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.body-main .general h4 {
+    font-family: var(--roboto);
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+    color: var(--grisOscuro);
+    text-align: center;
+    height: 40px;
+    margin: auto;
+}
+
+.body-main .general .general-art {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.body-main .general .general-art article {
+    background-color: white;
+    border: solid 1px lightgray;
+    height: 310px;
+    width: 275px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+.body-main .general .general-art article .img-producto {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    height: 60%;
+}
+
+.body-main .general .general-art article .caja-info {
+    border-top: solid 1px var(--grisClaro);
+}
+
+.body-main .general .general-art article .caja-info .envio {
+    display: block;
+    color: var(--verde);
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px;
+    width: 23px;
+    height: 20px;
+    border: 1px solid var(--verde);
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    top: -15px;
+}
+
+.body-main .general .general-art article .caja-info .prec-desc{
+    display: flex;
+}
+
+.body-main .general .general-art article .caja-info .precios {
+    font-size: var(--precios);
+    margin-left: 10px;
+    display: inline;
+    padding: 0px 10px 10px 10px;
+    width: 30%;
+}
+
+.body-main .general .general-art article .caja-info .descuentos {
+    font-size: var(--descuentos);
+    margin-left: 10px;
+    color: var(--verde);
+    display: inline;
+    padding: 0px 10px 10px 10px;
+    width: 70%;
+}
+
+.body-main .general .general-art article .caja-info .descripcion {
+    font-size: var(--descripciones);
+    margin-left: 10px;
+    padding-top: 10px;
+    color: var(--grisOscuro);
+}
+}
+
+/*DESKTOP*/
+@media (min-width: 769px) {
+.body-main {
+    background-color: #ebebeb;
+    width: 100%;
+    margin: auto;
+}
+
+.body-main .img-banner {
+    width: 100%;
+}
+
+.body-main .general {
+    margin-bottom: 10px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.body-main .general h4 {
+    font-family: var(--roboto);
+    font-size: var(--titularesBasadoEnTuÚltimaVisita-Ofertas);
+    color: var(--grisOscuro);
+    text-align: left;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.body-main .general .general-art {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.body-main .general .general-art article {
+    background-color: white;
+    border: solid 1px lightgray;
+    height: 290px;
+    width: 230px;
+    /* text-align: center; */
+    /* margin: auto; */
+    /* margin-bottom: 10px; */
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+ 
+
+.body-main .general .general-art article .img-producto {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    height: 60%;
+}
+
+.body-main .general .general-art article .caja-info {
+    border-top: solid 1px var(--grisClaro);
+}
+
+.body-main .general .general-art article .caja-info .envio {
+    display: block;
+    color: var(--verde);
+    text-align: justify;
+    font-size: 16px;
+    padding: 5px;
+    width: 23px;
+    height: 20px;
+    border: 1px solid var(--verde);
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+}
+
+.body-main .general .general-art article .caja-info .prec-desc{
+    display: flex;
+}
+.body-main .general .general-art article .caja-info .precios {
+    font-size: var(--precios);
+    margin-left: 10px;
+    display: inline;
+    padding: 0px 10px 10px 10px;
+    width: 30%;
+}
+
+.body-main .general .general-art article .caja-info .descuentos {
+    font-size: var(--descuentos);
+    margin-left: 10px;
+    color: var(--verde);
+    display: inline;
+    padding: 0px 10px 10px 10px;
+    width: 70%;
+}
+
+.body-main .general .general-art article .caja-info .descripcion {
+    font-size: var(--descripciones);
+    margin-left: 10px;
+    padding-top: 10px;
+    color: var(--grisOscuro);
+}
+
+article {
+    position: relative;
+  }
+  
+  .descripcion {
+    display: none;
+  }
+  
+  .caja-info:hover .descripcion {
+    display: block;
+  }
+  
+  .caja-info:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .envio {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .envio:hover {
+    transform: rotate(-90deg);
+  }
+
+}
